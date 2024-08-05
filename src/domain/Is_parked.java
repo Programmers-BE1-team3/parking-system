@@ -7,6 +7,7 @@ public enum Is_parked {
     private boolean b;
 
     Is_parked(boolean b) {
+        this.b = b;
     }
 
     public boolean getB() {
