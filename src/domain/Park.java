@@ -10,6 +10,9 @@ public class Park {
     private LocalDateTime entranceTime;
     private LocalDateTime departureTime;
 
+    public Park() {
+    }
+
     public Park(int parking_slot_id, Is_parked is_parked, ParkingType parkingType, ParkableSize parkableSize, LocalDateTime entranceTime, LocalDateTime departureTime) {
         this.parking_slot_id = parking_slot_id;
         this.is_parked = is_parked;
