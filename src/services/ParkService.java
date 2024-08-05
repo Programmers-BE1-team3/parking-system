@@ -1,4 +1,4 @@
 package services;
 
-public class ParkService {
+public interface ParkService {
 }
