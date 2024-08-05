@@ -2,7 +2,7 @@ package domain;
 
 import java.time.LocalDateTime;
 
-public class park {
+public class Park {
     private int parking_slot_id;
     private Is_parked is_parked;
     private ParkingType parkingType;
@@ -10,7 +10,7 @@ public class park {
     private LocalDateTime entranceTime;
     private LocalDateTime departureTime;
 
-    public park(int parking_slot_id, Is_parked is_parked, ParkingType parkingType, ParkableSize parkableSize, LocalDateTime entranceTime, LocalDateTime departureTime) {
+    public Park(int parking_slot_id, Is_parked is_parked, ParkingType parkingType, ParkableSize parkableSize, LocalDateTime entranceTime, LocalDateTime departureTime) {
         this.parking_slot_id = parking_slot_id;
         this.is_parked = is_parked;
         this.parkingType = parkingType;
